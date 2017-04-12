@@ -1,5 +1,5 @@
 <style>
-h2, h3, p {
+h2, h3 {
 	font-family: Arial, sans-serif;
 	color: #33334d;
 }
@@ -8,8 +8,8 @@ body {
 	background-color: #76c6f7;
 }
 .imageContainer{
-	width:100%;
-	height:100%;
+	width:auto;
+	height:1500px;
 	background-image: url(https://static.pexels.com/photos/2946/dawn-nature-sunset-trees.jpg);
 }
 
@@ -29,8 +29,8 @@ hr {
 
 .box {
 	display: inline-block;
-	width: 400px;
-	height: 250px;
+	width: 200px;
+	height: 200px;
 	background-color: #5baf5e;
 	border-style: inset;
 	border-radius: 25px;
@@ -39,7 +39,7 @@ hr {
 
 .boxText {
 	font-family: Arial, sans-serif;
-	font-size: 30px;
+	font-size: 21px;
 	color: white;	
 }
 
@@ -65,5 +65,45 @@ a:hover {
 .fullPageImage {
 	height: auto;
 	width: auto;
+}
+feelingPanicPage {
+	background-image: url(https://i.ytimg.com/vi/2onbvQEbb4k/maxresdefault.jpg);
+	width: 100%;
+	height: 100%;
+	color: white;
+}
+.feelingPanicPage p{
+	color:white;
+}
+.feelingPanicPage h2{
+	color:white;
+}
+.feelingAnxietyPage {
+	background-image: url(https://images3.alphacoders.com/112/thumb-1920-112487.jpg);
+	width: 100%;
+	height: 100%;
+}
+.feelingDepressionPage {
+	background-image: url(https://images3.alphacoders.com/112/thumb-1920-112487.jpg);
+	width: 100%;
+	height: 100%;
+	color: white;
+}
+.feelingDepressionPage p{
+	color: white;
+}
+.feelingDepressionPage h2{
+	color: white;
+}
+.transBox{
+	
+	background-color: #ffffff;
+	border: 1px solid black;
+	opacity: 0.7;
+}
+.transBox p,h2 {
+	margin: 5%;
+	font-weight: bold;
+	color: #000000;
 }
 </style>
