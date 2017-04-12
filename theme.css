@@ -46,17 +46,16 @@ hr {
 	color: white;
 	text-align: center;	
 }
-
 a:link {
-	color: #f2f2f2;
+	color: green;
 	text-decoration: none;
 }
 a:visited {
-	color: white;
+	color: blue;
 	text-decoration: none;
 }
 a:hover {
-	color: #ffffff;
+	color: orange;
 	ease: .5s;
 }
 #mainText {
