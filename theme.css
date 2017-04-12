@@ -1,18 +1,16 @@
-<style>
+<s<style>
 h2, h3 {
 	font-family: Arial, sans-serif;
-	color: #33334d;
+	 margin-bottom: 45px;
 }
-
 body {
-	background-color: #76c6f7;
+	background-color: #84c0f4;
 }
 .imageContainer{
 	width:auto;
 	height:1500px;
 	background-image: url(https://static.pexels.com/photos/2946/dawn-nature-sunset-trees.jpg);
 }
-
 hr {
 	border:0px;
 	color: #33334d;
@@ -20,27 +18,33 @@ hr {
 	height: 2px;
 	width: 75%;
 }
-
 .container {
 	display: block;
 	text-align: center;
 	width: 100%;
 }
-
 .box {
 	display: inline-block;
 	width: 200px;
 	height: 200px;
 	background-color: #5baf5e;
 	border-style: inset;
-	border-radius: 25px;
-    
+	border-radius: 15px; 
 }
-
+.homeButton {
+	display: inline-block;
+	width: 120px;
+	height: 50px;
+	background-color: #5baf5e;
+	border-style: inset;
+	border-radius: 15px; 
+	margin-top: 100px;
+}
 .boxText {
-	font-family: Arial, sans-serif;
+	font-family: Lobster, sans-serif;
 	font-size: 21px;
-	color: white;	
+	color: white;
+	text-align: center;	
 }
 
 a:link {
@@ -48,14 +52,13 @@ a:link {
 	text-decoration: none;
 }
 a:visited {
-	color: #a2a2c3;
+	color: white;
 	text-decoration: none;
 }
 a:hover {
 	color: #ffffff;
 	ease: .5s;
 }
-
 #mainText {
 	text-align: justify;
 	margin-left: 10%;
@@ -63,10 +66,11 @@ a:hover {
 	margin-top: 20px;
 }
 .fullPageImage {
+    background-image: url(https://static.pexels.com/photos/2946/dawn-nature-sunset-trees.jpg);
 	height: auto;
 	width: auto;
 }
-feelingPanicPage {
+.feelingPanicPage {
 	background-image: url(https://i.ytimg.com/vi/2onbvQEbb4k/maxresdefault.jpg);
 	width: 100%;
 	height: 100%;
@@ -96,14 +100,24 @@ feelingPanicPage {
 	color: white;
 }
 .transBox{
-	
 	background-color: #ffffff;
 	border: 1px solid black;
 	opacity: 0.7;
 }
-.transBox p,h2 {
+.transBox p {
 	margin: 5%;
 	font-weight: bold;
 	color: #000000;
+}
+.transBox h1 {
+	margin: 5%;
+	font-weight: bold;
+	color: #000000;
+}
+	#listText {
+	text-align: justify;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 20px;
 }
 </style>
