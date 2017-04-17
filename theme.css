@@ -1,4 +1,4 @@
-<s<style>
+<style>
 h2, h3 {
 	font-family: Arial, sans-serif;
 	 margin-bottom: 45px;
@@ -38,7 +38,7 @@ hr {
 	background-color: #5baf5e;
 	border-style: inset;
 	border-radius: 15px; 
-	margin-top: 100px;
+	margin-bottom:5%;
 }
 .boxText {
 	font-family: Lobster, sans-serif;
@@ -47,22 +47,22 @@ hr {
 	text-align: center;	
 }
 a:link {
-	color: green;
+	color: #0882c9;
 	text-decoration: none;
 }
 a:visited {
-	color: blue;
+	color: #4a8fc4;
 	text-decoration: none;
 }
 a:hover {
-	color: orange;
+	color: #84c0f4;
 	ease: .5s;
 }
 #mainText {
 	text-align: justify;
 	margin-left: 10%;
 	margin-right: 10%;
-	margin-top: 20px;
+	margin-top: 10px;
 }
 .fullPageImage {
     background-image: url(https://static.pexels.com/photos/2946/dawn-nature-sunset-trees.jpg);
@@ -101,6 +101,9 @@ a:hover {
 .transBox{
 	background-color: #ffffff;
 	border: 1px solid black;
+	margin-left: 15%;
+	margin-right:15%;
+	margin-top:5%;
 	opacity: 0.7;
 }
 .transBox p {
