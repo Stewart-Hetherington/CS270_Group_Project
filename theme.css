@@ -9,6 +9,16 @@ body {
 	padding:0;
 	height:100%;
 }
+ol {
+	margin: 5%;
+	font-weight: bold;
+	color: #000000;
+}
+ul {
+	margin: 5%;
+	font-weight: bold;
+	color: #000000;
+}
 .imageContainer{
 	width:auto;
 	height:auto;
@@ -96,8 +106,6 @@ a:hover {
     background-size: cover;
     color:white;
 }
-
-
 .feelingPanicPage p{
 	color:white;
 }
@@ -148,11 +156,16 @@ a:hover {
 	font-weight: bold;
 	color: #000000;
 }
+.transBox h2 {
+	margin: 5%;
+	font-weight: bold;
+	color: #000000;
+}
+
 	#listText {
 	text-align: justify;
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-top: 20px;
 }
-
 </style>
