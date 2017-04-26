@@ -37,13 +37,12 @@ hr {
 }
 .container {
 	display: block;
-	text-align: center;
 	width: 100%;
 }
 .box {
 	display: inline-block;
 	width: 200px;
-	height: 200px;
+	height: 40px;
 	background-color: #5baf5e;
 	border-style: inset;
 	border-radius: 15px; 
@@ -61,7 +60,8 @@ hr {
 	font-family: Lobster, sans-serif;
 	font-size: 21px;
 	color: white;
-	text-align: center;	
+	text-align: center;
+	margin: auto;	
 }
 a:link {
 	color: purple;
