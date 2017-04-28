@@ -15,12 +15,12 @@ body {
 	height:100%;
 }
 ol {
-	margin: 5%;
+	
 	font-weight: bold;
 	color: #000000;
 }
 ul {
-	margin: 5%;
+	margin:2%;
 	font-weight: bold;
 	color: #000000;
 }
@@ -118,7 +118,7 @@ a:hover {
 	color:white;
 }
 .feelingAnxietyPage {
-	background-image: url(http://wesustainearth.com/wp-content/uploads/2015/11/dandelion-bess.jpg);
+	background-image: url(http://hdfreewallpaper.net/wp-content/uploads/2015/08/image-sunrise-hd-free-wallpapers-download.jpg);
 	width: auto;
 	height: auto;
 	-webkit-background-size: cover;
@@ -166,7 +166,6 @@ a:hover {
 	font-weight: bold;
 	color: #000000;
 }
-
 	#listText {
 	text-align: justify;
 	margin-left: 10%;
