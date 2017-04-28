@@ -4,7 +4,7 @@ h2, h3 {
 	 margin-bottom: 45px;
 }
 h4 {
-	margin: 5%;
+	margin: 1%;
 	font-weight: bold;
 	color: #000000;
 }
@@ -166,10 +166,15 @@ a:hover {
 	font-weight: bold;
 	color: #000000;
 }
+
 	#listText {
 	text-align: justify;
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-top: 20px;
+}
+.centerPage {
+	margin:auto;
+	text-align: justify;
 }
 </style>
