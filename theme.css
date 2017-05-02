@@ -41,8 +41,10 @@ hr {
 	width: 75%;
 }
 .container {
-	display: block;
-	width: 100%;
+	margin: 0 auto;
+	text-align:center;
+	width: _px;
+	
 }
 .box {
 	display: inline-block;
@@ -51,22 +53,13 @@ hr {
 	background-color: #5baf5e;
 	border-style: inset;
 	border-radius: 15px; 
-}
-.homeButton {
-	display: inline-block;
-	width: 120px;
-	height: 50px;
-	background-color: #5baf5e;
-	border-style: inset;
-	border-radius: 15px; 
-	margin-bottom:5%;
+	margin:auto;
 }
 .boxText {
 	font-family: Lobster, sans-serif;
 	font-size: 21px;
 	color: white;
 	text-align: center;
-	margin: auto;	
 }
 a:link {
 	color: purple;
@@ -155,6 +148,7 @@ a:hover {
 	margin: 5%;
 	font-weight: bold;
 	color: #000000;
+	text-align: justify;
 }
 .transBox h1 {
 	margin: 5%;
@@ -166,7 +160,6 @@ a:hover {
 	font-weight: bold;
 	color: #000000;
 }
-
 	#listText {
 	text-align: justify;
 	margin-left: 10%;
